@@ -1,4 +1,3 @@
-
 void
 swap(
     int*  nums,
@@ -32,9 +31,9 @@ removeElement(
     return left;
 }
 
-int
-main()
-{
-    int nums[4] = {3, 2, 2, 3};
-    removeElement(nums, 4, 3);
-}
+//int
+//main()
+//{
+//    int nums[4] = {3, 2, 2, 3};
+//    removeElement(nums, 4, 3);
+//}
