@@ -36,7 +36,7 @@ minSubArrayLen(
         {
             //next 本身已经加1, 所以不需要再加1了
             ret_len = ret_len > next - front ? next - front : ret_len;
-            sum = sum - nums[front++];
+            sum     = sum - nums[front++];
         }
     }
     //根据front的值是否变化来判断 全部和值小于target 还是最小长度刚好为numsSize
